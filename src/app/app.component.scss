@@ -1,0 +1,60 @@
+.spaced {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.spacer {
+  flex: 1 1 auto;
+}
+.logo {
+  height: 80px;
+}
+
+footer {
+  background-color: #f57f0b;
+  border-top: 2px solid white;
+  text-align: center;
+}
+
+#clickFooter footer:hover {
+  background-color: #ccc;
+  cursor: pointer;
+}
+
+#btmFooter {
+  align-self: flex-end;
+}
+.white {
+  text-decoration: none;
+  color:white;
+}
+
+
+#content {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  font-size: x-large;
+}
+
+main {
+  flex-grow: 1;
+  margin-left: 10px;
+  text-align: center;
+}
+
+.mat-drawer-container {
+  color: #2c2c2c;
+  background-color: white;
+}
+mat-toolbar, main, footer {
+  flex-shrink: 0;
+}
+
+#mainlink {
+  cursor: pointer;
+}
+@media only screen and (max-width: 600px) {
+
+}
+
